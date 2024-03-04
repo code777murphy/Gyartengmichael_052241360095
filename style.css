@@ -1,0 +1,342 @@
+/* Styles for index.html */
+.indexbody {
+    font-family: Arial, sans-serif;
+    font:12px;
+    margin: 0;
+    padding: 0;
+}
+
+.indexbody {
+    background-image: url("kstu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    flex: 1;
+}
+
+maindiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image{
+    width:100px;
+    height:500px;
+    margin-left: 150px;
+}
+.indexheader {
+    background-color: #0d6c7c;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Styles for faculty.html */
+.facultybody {
+    font-family: Arial, sans-serif;
+    font: 12px;
+  
+}
+
+.facultyheader {
+    background-color: #002d8e;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Styles for payment.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.paymentheader {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Styles for department.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.departmentheader {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Styles for timestable.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b1611b;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Styles for registration.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.registrationheader {
+    background-color: #7ba508;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}

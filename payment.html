@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="department.html">Departments</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="payment.html">Payments</a></li>
+                <li><a href="timestable.html">Timetables</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>CODE WIZARD MURPHY WEBSITE </h1>
+        </div>
+    </header>
+    <title>School Fees Payment Form</title>
+  </head>
+  <body>
+    <h2>School Fees Payment Form</h2>
+    <form action="/payFees" method="POST">
+      <label for="studentId">Student ID:</label><br>
+      <input type="text" id="studentId" name="studentId"><br>
+      <label for="amount">Amount:</label><br>
+      <input type="number" id="amount" name="amount"><br><br>
+      <input type="submit" value="Pay Fees">
+
+
+    </form>
+  </body>
+</html>
